@@ -264,7 +264,7 @@ public class Converter implements Callable<Void> {
   )
   private volatile Class<?>[] extraReaders = new Class[] {
     PyramidTiffReader.class, MiraxReader.class,
-    BioTekReader.class, ND2PlateReader.class
+    ND2PlateReader.class
   };
 
   @Option(
